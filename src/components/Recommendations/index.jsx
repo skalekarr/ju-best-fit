@@ -32,8 +32,8 @@ class Recommendation extends Component{
                     selected === 'prev' &&
                     <div>
                         <Col sm={3}>
-                            <p>Size: {size1}</p>
-                            <p>Fit: {fit1}</p>
+                            <p><b>Size:</b> {size1}</p>
+                            <p><b>Fit:</b> {fit1}</p>
                         </Col>
                         <Col sm={9} className="border border-primary">
                             <Image src={image1} thumbnail />
@@ -44,8 +44,8 @@ class Recommendation extends Component{
                     selected === 'recommended' &&
                     <div>
                         <Col sm={3}>
-                            <p>Size: {size2}</p>
-                            <p>Fit: {fit2}</p>
+                            <p><b>Size:</b> {size2}</p>
+                            <p><b>Fit:</b> {fit2}</p>
                         </Col>
                         <Col sm={9} className="border border-primary">
                             <Image src={image2} thumbnail />
@@ -56,8 +56,8 @@ class Recommendation extends Component{
                     selected === 'next' &&
                     <div>
                         <Col sm={3}>
-                            <p>Size: {size3}</p>
-                            <p>Fit: {fit3}</p>
+                            <p><b>Size:</b> {size3}</p>
+                            <p><b>Fit:</b> {fit3}</p>
                         </Col>
                         <Col sm={9} className="border border-primary">
                             <Image src={image3} thumbnail />

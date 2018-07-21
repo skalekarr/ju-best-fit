@@ -25,122 +25,155 @@ const SizeChart = ({
         <Table striped bordered condensed hover>
             <thead>
                 <tr align="center">
-                    <th colSpan="4">Plus Size Bottoms</th>
+                    <th colSpan="4">Bottoms</th>
                 </tr>
                 <tr>
                     <th>Size</th>
-                    <th>SizeSegment</th>
+                    <th>Height</th>
                     <th>Waist</th>
                     <th>Hip</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>00X</td>
-                    <td>12</td>
-                    <td>34</td>
-                    <td>43</td>
-                </tr>
-
-
-                <tr>
-                    <td rowSpan="2">0X</td>
-                    <td>14</td>
-                    <td>36</td>
-                    <td>45</td>
+                    <th>6 Reg</th>
+                    <th>46-49</th>
+                    <th>22</th>
+                    <th>25.5</th>
                 </tr>
                 <tr>
-                    <td>16</td>
-                    <td>38</td>
-                    <td>47</td>
-                </tr>
-
-
-                <tr>
-                    <td rowSpan="2">1X</td>
-                    <td>18</td>
-                    <td>40</td>
-                    <td>49</td>
+                    <th>7 Reg</th>
+                    <th>49-52</th>
+                    <th>22.5</th>
+                    <th>27</th>
                 </tr>
                 <tr>
-                    <td>20</td>
-                    <td>42</td>
-                    <td>51</td>
-                </tr>
-
-
-                <tr>
-                    <td rowSpan="2">2X</td>
-                    <td>22</td>
-                    <td>44</td>
-                    <td>53</td>
+                    <th>8 Reg</th>
+                    <th>52-55</th>
+                    <th>23</th>
+                    <th>28.5</th>
                 </tr>
                 <tr>
-                    <td>24</td>
-                    <td>46</td>
-                    <td>55</td>
+                    <th>10 Reg</th>
+                    <th>55-58</th>
+                    <th>24.5</th>
+                    <th>30</th>
                 </tr>
-
+                <tr>
+                    <th>12 Reg</th>
+                    <th>58-60</th>
+                    <th>25</th>
+                    <th>32</th>
+                </tr>
+                <tr>
+                    <th>14 Reg</th>
+                    <th>60-62</th>
+                    <th>26</th>
+                    <th>34</th>
+                </tr>
+                <tr>
+                    <th>16 Reg</th>
+                    <th>62-63</th>
+                    <th>27</th>
+                    <th>36</th>
+                </tr>
+                <tr>
+                    <th>18 Reg</th>
+                    <th>62-63</th>
+                    <th>28</th>
+                    <th>37.5</th>
+                </tr>
+                <tr>
+                    <th>20 Reg</th>
+                    <th>62-63</th>
+                    <th>29</th>
+                    <th>38.5</th>
+                </tr>
             </tbody>
         </Table>
         <Table striped bordered condensed hover>
             <thead>
-                <tr>
-                    <th colSpan="5">Plus Size Tops & Dresses </th>
+                <tr align="center">
+                    <th colSpan="6">Tops</th>  
                 </tr>
+                
                 <tr>
                     <th>Size</th>
-                    <th>SizeSegment</th>
-                    <th>Bust</th>
+                    <th>Size Segment</th>
+                    <th>Height</th>
                     <th>Waist</th>
-                    <th>Hip</th>
+                    <th>Hips</th>
+                    <th>Chest</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td rowSpan="2">0X</td>
-                    <td>14</td>
-                    <td>41</td>
-                    <td>36</td>
-                    <td>45</td>
+                    <th rowSpan="2">XS/S</th>
+                    <th>6 Reg</th>
+                    <th>46-49</th>
+                    <th>22</th>
+                    <th>25.5</th>
+                    <th>24.5</th>
                 </tr>
                 <tr>
-                    <td>16</td>
-                    <td>43</td>
-                    <td>38</td>
-                    <td>47</td>
-                </tr>
-
-                <tr>
-                    <td rowSpan="2">1X</td>
-                    <td>18</td>
-                    <td>45</td>
-                    <td>40</td>
-                    <td>49</td>
+                    <th>7 Reg</th>
+                    <th>49-52</th>
+                    <th>22.5</th>
+                    <th>27</th>
+                    <th>26</th>
                 </tr>
                 <tr>
-                    <td>20</td>
-                    <td>47</td>
-                    <td>42</td>
-                    <td>51</td>
-                </tr>
-
-
-
-                <tr>
-                    <td rowSpan="2">2X</td>
-                    <td>22</td>
-                    <td>49</td>
-                    <td>44</td>
-                    <td>53</td>
+                    <th rowSpan="3">M</th>
+                    <th>8 Reg</th>
+                    <th>52-55</th>
+                    <th>23</th>
+                    <th>28.5</th>
+                    <th>27.5</th>
                 </tr>
                 <tr>
-                    <td>24</td>
-                    <td>51</td>
-                    <td>46</td>
-                    <td>55</td>
+                    <th>10 Reg</th>
+                    <th>55-58</th>
+                    <th>24.5</th>
+                    <th>30</th>
+                    <th>29</th>
                 </tr>
-
+                <tr>
+                    <th>12 Reg</th>
+                    <th>58-60</th>
+                    <th>25</th>
+                    <th>32</th>
+                    <th>30.5</th>
+                </tr>
+                <tr>
+                    <th rowSpan="3">L</th>
+                    <th>14 Reg</th>
+                    <th>60-62</th>
+                    <th>26</th>
+                    <th>34</th>
+                    <th>32</th>
+                </tr>
+                <tr>
+                    <th>16 Reg</th>
+                    <th>62-63</th>
+                    <th>27</th>
+                    <th>36</th>
+                    <th>33.5</th>
+                </tr>
+                <tr>
+                    <th>18 Reg</th>
+                    <th>62-63</th>
+                    <th>28</th>
+                    <th>37.5</th>
+                    <th>35</th>
+                </tr>
+                <tr>
+                    <th>XL</th>
+                    <th>20 Reg</th>
+                    <th>62-63</th>
+                    <th>29</th>
+                    <th>38.5</th>
+                    <th>36</th>
+                </tr>
             </tbody>
         </Table>
         <Button className="btn btn-primary pull-left" target="_blank" href="https://printable-ruler.net/wp-content/uploads/2016/05/measuring-tape-24in-16th-inches-A4.pdf">Print Ruler</Button>            

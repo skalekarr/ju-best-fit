@@ -1,13 +1,13 @@
 import * as ACTIONS from '../../actions/constants/app';
 
 const productDetails = {
-  image: 'https://image.ibb.co/iQGcYd/Webp_net_resizeimage.jpg',
+  image: 'https://image.ibb.co/dzPRTd/justice.png',
   fit: '',
   color: '',
   size: '',
-  description: 'Easy and effortless in rich doubleweave, our seamed V-neck sheath dress is a modern take on polish. V-neck. Sleeveless. Back zip. Lined.',
-  name: 'V-neck sheath',
-  shortDescription: 'Seamed V-Neck Sheath Dress'
+  description: "Style with a smile.Boxy shortened cut that's totally on-trend. Colorful rainbow designs to brighten her look",
+  name: 'Casual tee',
+  shortDescription: 'rainbow fun tee'
 }
 
 const initialState = { modals: {}, productDetails };

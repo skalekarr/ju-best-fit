@@ -105,19 +105,19 @@ class ProductDetails extends Component{
                             </FormGroup>    
                             <FormGroup align="left">
                                 <Radio name="radioGroup3" value="xxs" checked={size === 'xxs'} inline>
-                                    XXS
+                                    12
                                 </Radio>{' '}
                                 <Radio name="radioGroup3" value="xs" checked={size === 'xs'} inline>
-                                    XS
+                                    14
                                 </Radio>{' '}
                                 <Radio name="radioGroup3" value="s" checked={size === 's'} inline>
-                                    S
+                                    16
                                 </Radio>
                                 <Radio name="radioGroup" value="m" checked={size === 'm'} inline>
-                                    M
+                                    20
                                 </Radio>
                                 <Radio name="radioGroup" value="l" checked={size === 'l'} inline>
-                                    L
+                                    24
                                 </Radio>
                             </FormGroup>
                         </Col>
